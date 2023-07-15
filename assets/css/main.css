@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.router-link-exact-active {
+	@apply text-gray-800 bg-yellow-300 hover:text-white;
+}
+
+.main-container {
+	height: calc(100vh - 4.25rem);
+	width: calc(100% - 5rem);
+}
+
+.taskmenu {
+	height: calc(100vh - 4.25rem);
+}
+
+.employee-tbody:before {
+	/* This doesn't work because of border-collapse */
+	line-height: 2em;
+	content: ".";
+	color: white; /* bacground color */
+	display: block;
+
+	@apply text-slate-200;
+}
+
+.record-tbody:before {
+	/* This doesn't work because of border-collapse */
+	line-height: 2em;
+	content: ".";
+	color: white; /* bacground color */
+	display: block;
+
+	@apply text-slate-200;
+}
+
+.primary-button {
+	@apply text-gray-800 bg-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-yellow-200 font-semibold rounded-md sm:text-base text-sm px-5 py-2.5 text-center justify-center inline-flex items-center dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800 gap-1;
+}
+
+.primary-button-sm {
+	@apply text-gray-800 bg-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-yellow-200 font-semibold rounded-md text-sm px-4 py-1.5 text-center justify-center inline-flex items-center dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800 gap-1;
+}
+
+.secondary-button {
+	@apply flex items-center justify-center gap-1 px-5 py-2.5 bg-gray-100 hover:bg-gray-200 border border-gray-300 rounded-md sm:text-base text-sm text-gray-600 font-semibold;
+}
+
+.secondary-button-sm {
+	@apply flex-1 flex items-center justify-center gap-1 px-4 py-1.5 bg-gray-100 hover:bg-gray-200 border border-gray-300 rounded-md text-sm text-gray-600 font-semibold;
+}
+
+@media not all and (min-width: 1280px) {
+	.main-container {
+		height: calc(100vh - 3.75rem);
+		width: calc(100% - 3rem);
+	}
+
+	.taskmenu {
+		height: calc(100vh - 3.75rem);
+	}
+
+	.employee-tbody:before {
+		line-height: 1.5em;
+	}
+
+	.record-tbody:before {
+		line-height: 1.5em;
+	}
+}
+
+@media not all and (min-width: 1024px) {
+	.main-container {
+		width: 100%;
+	}
+}

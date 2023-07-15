@@ -1,0 +1,100 @@
+{
+	"config": [
+		{
+			"name": "Agency",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "agencyName",
+			"type": "text",
+			"visibility": "isAgencyNameVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Invoice Number",
+			"is_visible": false,
+			"parent": null,
+			"dropdown": false,
+			"field": "invoiceNumber",
+			"type": "text",
+			"visibility": "isInvoiceNumberVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Invoice Date",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "invoiceDate",
+			"type": "email",
+			"visibility": "isInvoiceDateVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Week",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "week",
+			"type": "text",
+			"visibility": "isWeekVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Xero Invoice Number",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "xeroInvoiceNumber",
+			"type": "date",
+			"visibility": "isXeroInvoiceNumberVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Total Incl. VAT",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "totalIncludingVat",
+			"type": "text",
+			"visibility": "isTotalIncludingVatVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Total VAT",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "totalVat",
+			"type": "text",
+			"visibility": "isTotalVatVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Total Excl. VAT",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "totalExcludingVat",
+			"type": "text",
+			"visibility": "isTotalExcludingVatVisible",
+			"is_add": false,
+			"is_update": false,
+			"component": "RecordsTableDataDefault"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"config": [
+		{
+			"name": "Name",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "agencyName",
+			"type": "text",
+			"is_add": true,
+			"is_update": true,
+			"visibility": "isNameVisible",
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Company number",
+			"is_visible": true,
+			"parent": null,
+			"field": "companyNumber",
+			"type": "text",
+			"is_add": true,
+			"is_update": true,
+			"dropdown": false,
+			"visibility": "isCompanyNumberVisible",
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "VAT number",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "vatNumber",
+			"type": "text",
+			"is_add": true,
+			"is_update": true,
+			"visibility": "isVatNumberVisible",
+			"component": "RecordsTableDataDefault"
+		},
+		{
+			"name": "Status",
+			"is_visible": true,
+			"parent": null,
+			"dropdown": false,
+			"field": "companyStatus",
+			"type": "text",
+			"is_add": true,
+			"is_update": true,
+			"visibility": "isStatusVisible",
+			"component": "RecordsTableDataDefault"
+		}
+	]
+}
